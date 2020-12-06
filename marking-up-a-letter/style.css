@@ -1,0 +1,15 @@
+
+.wrapper {
+  width: 100%;
+  padding: 48px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sender-info {
+  text-align: end;
+}
+
+.sender-info__list {
+  list-style: none;
+}
