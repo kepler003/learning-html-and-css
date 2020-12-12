@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive images</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  
+  <div class="app">
+    <picture>
+      <source class="image" media="(max-width: 480px)" srcset="images/lake-480w.jpg">
+      <img class="image" src="images/lake.jpg" alt="View on the lake between the mountains with boats in the distance">
+    </picture>
+  </div>
 </body>
 </html>
