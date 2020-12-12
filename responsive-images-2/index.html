@@ -4,8 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive images 2</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  
+  <div class="app">
+    <img class="image"
+      srcset="images/cabbin-480w.jpg,
+              images/cabbin-960w.jpg 1.5x,
+              images/cabbin-1440w.jpg 2x"
+      src="images/cabbin.jpg"
+      alt="Cabbin near the lake with mountains in the distance">
+  </div>
 </body>
 </html>
