@@ -7,3 +7,12 @@
 html {
   font-size: 62.5%;
 }
+
+.app {
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
