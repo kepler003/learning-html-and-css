@@ -23,9 +23,13 @@ table {
   letter-spacing: 1px;
 }
 
+table table {
+  margin: 0 auto;
+}
+
 td, th {
   border: 1px solid rgb(190,190,190);
-  padding: 1rem 2rem;
+  padding: 1.5rem;
 }
 
 th {
