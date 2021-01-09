@@ -42,3 +42,15 @@ li em {
 p span {
   color: red;
 }
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: violet;
+}
+
+a:hover {
+  font-weight: bold;
+}
