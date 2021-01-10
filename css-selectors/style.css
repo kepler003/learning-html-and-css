@@ -15,4 +15,64 @@ body {
 
 .app {
   width: 100%;
+  padding: 2.4rem;
+}
+
+/* Testing CSS selectors */
+
+h1 {
+  margin-bottom: 1.6rem;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+
+h1 + p {
+  font-size: 1.8rem;
+}
+
+.para {
+  font-style: italic;
+}
+
+#para {
+  margin: 1.2rem 0;
+  font-size: 1.2rem;
+}
+
+.box {
+  margin: 1.6rem;
+  padding: 1.6rem;
+  border: 1px solid #AAA;
+}
+
+.wrapper {
+  margin: 1.6rem;
+  padding: 1.6rem;
+  border: 0.4rem dashed #DDD;
+  position: relative;
+}
+
+.wrapper::after {
+  content: '✂';
+  color: #888;
+  font-size: 2.4rem;
+  transform: translateY(50%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.wrapper a {
+  color: #999;
+}
+
+.wrapper a:visited {
+  color: pink;
+}
+
+a[href="https://youtube.com"]:visited {
+  color: red;
 }
