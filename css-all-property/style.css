@@ -35,3 +35,7 @@ input:focus {
   outline: none;
   border: 2px solid rgb(141, 123, 243);
 }
+
+.some-input {
+  all: initial;
+}
