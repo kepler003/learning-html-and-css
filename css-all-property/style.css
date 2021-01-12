@@ -18,3 +18,20 @@ body {
 
 /* Project-specific styling */
 
+.app {
+  padding: 2.4rem;
+}
+
+input {
+  padding: 0.4rem;
+  border: 2px solid #DDD;
+  border-radius: 0.4rem;
+  color: #444;
+  font-size: 1.6rem;
+  transition: 150ms ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid rgb(141, 123, 243);
+}
