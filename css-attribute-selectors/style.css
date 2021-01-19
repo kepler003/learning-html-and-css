@@ -18,3 +18,8 @@ body {
 
 /* Project-specific styling */
 
+.app {
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+}
