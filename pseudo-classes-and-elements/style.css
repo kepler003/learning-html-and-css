@@ -23,12 +23,12 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   margin: 2.4rem;
-  padding: 2.4rem;
   min-height: calc(100vh - 2 * 2.4rem);
 }
 
 .row {
   width: 100%;
+  margin-bottom: 2.4rem;
   padding: 2.4rem;
   border: 1px solid #888;
 }
@@ -40,4 +40,17 @@ body {
 
 .first-of-type p:first-of-type {
   font-weight: bold;
+}
+
+.first-child div:first-child {
+  color: red;
+}
+
+.hover p {
+  transition: 150ms ease-in-out;
+}
+
+.hover p:hover {
+  cursor: pointer;
+  padding-left: 0.4rem;
 }
