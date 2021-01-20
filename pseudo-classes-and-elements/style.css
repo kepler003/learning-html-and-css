@@ -18,3 +18,12 @@ body {
 
 /* Project-specific styling */
 
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 2.4rem;
+  padding: 2.4rem;
+  min-height: calc(100vh - 2 * 2.4rem);
+}
+
