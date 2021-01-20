@@ -27,3 +27,17 @@ body {
   min-height: calc(100vh - 2 * 2.4rem);
 }
 
+.row {
+  width: 100%;
+  padding: 2.4rem;
+  border: 1px solid #888;
+}
+
+.heading {
+  margin-bottom: 2.2rem;
+  font-size: 3.2rem;
+}
+
+.first-of-type p:first-of-type {
+  font-weight: bold;
+}
