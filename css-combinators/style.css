@@ -25,6 +25,7 @@ body {
 }
 
 /* Descendant selector (space) */
+
 .combinator p {
   margin-top: 1.6rem;
   color: #AAA;
@@ -32,4 +33,11 @@ body {
 
 .combinator p span {
   color: #444;
+}
+
+/* Child combinator */
+
+.child-descendant > p {
+  background-color: #444;
+  color: white;
 }
