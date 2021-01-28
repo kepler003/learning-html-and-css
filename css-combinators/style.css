@@ -26,18 +26,18 @@ body {
 
 /* Descendant selector (space) */
 
-.combinator p {
+.descendant p {
   margin-top: 1.6rem;
   color: #AAA;
 }
 
-.combinator p span {
+.descendant p span {
   color: #444;
 }
 
 /* Child combinator */
 
-.child-descendant > p {
+.child-combinator > p {
   background-color: #444;
   color: white;
 }
