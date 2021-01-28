@@ -44,3 +44,28 @@ body {
   background-color: #444;
   color: white;
 }
+
+/* Adjacent sibling combinator */
+
+.adjacent-sibling-combinator h1 + p {
+  padding: 2.4rem;
+  background-color: #444;
+  color: white;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.adjacent-sibling-combinator h1 + p + p {
+  font-weight: 700;
+  color: blue;
+}
+
+.adjacent-sibling-combinator div + span {
+  display: block;
+  border: 1px solid #888;
+  padding: 2.4rem;
+}
+
+.adjacent-sibling-combinator h1 + div {
+  border: 5px solid red; /* No effect because div is not h1's direct sibling */
+}
