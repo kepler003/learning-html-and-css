@@ -69,3 +69,16 @@ body {
 .adjacent-sibling-combinator h1 + div {
   border: 5px solid red; /* No effect because div is not h1's direct sibling */
 }
+
+/* General sibling combinator */
+
+.general-sibling-combinator h1 ~ div {
+  padding: 1.6rem;
+  margin-top: 1.6rem;
+  border: 1px solid #888;
+}
+
+.general-sibling-combinator div ~ p {
+  color: #888;
+  font-weight: 700;
+}
