@@ -23,3 +23,13 @@ body {
   padding: 2.4rem;
   border: 1px solid #888;
 }
+
+/* Descendant selector (space) */
+.combinator p {
+  margin-top: 1.6rem;
+  color: #AAA;
+}
+
+.combinator p span {
+  color: #444;
+}
