@@ -24,10 +24,13 @@ body {
   border: 1px solid #888;
 }
 
+.combinator p {
+  margin-top: 1.6rem;
+}
+
 /* Descendant selector (space) */
 
 .descendant p {
-  margin-top: 1.6rem;
   color: #AAA;
 }
 
