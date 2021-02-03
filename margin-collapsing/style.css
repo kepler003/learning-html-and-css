@@ -21,3 +21,12 @@ body {
 .app {
   padding: 3.2rem;
 }
+
+.box {
+  background-color: #444;
+}
+
+.box p {
+  margin: 5rem;
+  background-color: #888;
+}
