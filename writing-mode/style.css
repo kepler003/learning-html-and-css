@@ -36,8 +36,16 @@ body {
   border-radius: 1.6rem;
 }
 
+.vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+.vertical-lr {
+  writing-mode: vertical-lr;
+}
+
 .heading {
-  margin-bottom: 1.6rem;
+  margin-block-end: 1.6rem; /* Też działa, pomimo, że dziecko */
   font-size: 2.4rem;
   color: #888;
 }
