@@ -18,3 +18,9 @@ body {
 
 /* Project-specific styling */
 
+.app {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1.6rem;
+}
+
