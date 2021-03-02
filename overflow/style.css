@@ -37,3 +37,11 @@ body {
   font-size: 2.4rem;
   color: #888;
 }
+
+.hidden {
+  overflow: hidden;
+}
+
+.scroll {
+  overflow: scroll;
+}
