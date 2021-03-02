@@ -27,6 +27,7 @@ body {
 .box {
   width: 25.6rem;
   height: 25.6rem;
+  padding: 1.6rem;
   border: 1px solid #999;
   border-radius: 1.6rem;
 }
