@@ -21,3 +21,12 @@ body {
 .app {
   padding: 2.4rem;
 }
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 2.4rem;
+  border: 1px solid #AAA;
+  border-radius: 1.2rem;
+}
