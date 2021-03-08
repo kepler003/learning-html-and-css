@@ -1,0 +1,23 @@
+/* Reset styling */
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #444;
+}
+
+/* Project-specific styling */
+
+.app {
+  padding: 2.4rem;
+}
