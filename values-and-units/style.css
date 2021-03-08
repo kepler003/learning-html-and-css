@@ -46,3 +46,13 @@ body {
   color: white;
   border-radius: 0.4rem;
 }
+
+.units .em { width: 25em; }
+.units .ex { width: 25ex; }
+.units .ch { width: 25ch; }
+.units .rem { width: 25rem; }
+.units .lh { width: 25lh; }
+.units .vw { width: 25vw; }
+.units .vh { width: 25vh; }
+.units .vmin { width: 25vmin; }
+.units .vmax { width: 25vmax; }
