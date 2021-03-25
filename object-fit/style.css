@@ -20,8 +20,17 @@ body {
 
 .app {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   align-content: flex-start;
   padding: 2.4rem;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  margin: 2.4rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
 }
