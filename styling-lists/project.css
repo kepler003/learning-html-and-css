@@ -46,3 +46,7 @@ ul {
   list-style-position: outside;
   list-style-type: upper-roman;
 }
+
+.bullet-image ul {
+  list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/2/20/SimpleGray_Earth.svg");
+}
