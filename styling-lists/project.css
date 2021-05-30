@@ -8,7 +8,7 @@ p {
   font-size: 2.4rem;
 }
 
-ul {
+ul, ol {
   margin: 2.4rem 0;
   padding-left: 3.2rem;
 }
@@ -49,4 +49,8 @@ ul {
 
 .bullet-image ul {
   list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/2/20/SimpleGray_Earth.svg");
+}
+
+.list-counting li {
+  margin: 0.4rem 0;
 }
