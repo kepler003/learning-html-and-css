@@ -32,3 +32,17 @@ ul {
 .list-type .combination ul {
   list-style-type: '|=> ';
 }
+
+.bullet-position .inside ul {
+  margin-left: 2.4rem;
+  padding-left: 0;
+  list-style-position: inside;
+  list-style-type: upper-roman;
+}
+
+.bullet-position .outside ul {
+  margin-left: 2.4rem;
+  padding-left: 0;
+  list-style-position: outside;
+  list-style-type: upper-roman;
+}
