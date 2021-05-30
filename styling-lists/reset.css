@@ -31,8 +31,9 @@ body {
 }
 
 input, textarea, button {
-	margin: initial;
-	padding: initial;
+	margin: revert;
+	padding: revert;
+  border: revert;
 }
 
 /* HTML5 display-role reset for older browsers */
