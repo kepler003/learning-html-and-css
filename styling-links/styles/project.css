@@ -30,3 +30,36 @@
   background-position: 100% 0;
   background-repeat: no-repeat;
 }
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0.8rem;
+  padding-top: 0.8rem;
+  list-style: none;
+}
+
+.menu li {
+  display: flex;
+  margin-bottom: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.menu a {
+  padding: 1.2rem 1.6rem;
+  background-color: indigo;
+  border-radius: 0.4rem;
+  color: white;
+  text-decoration: none;
+  transition: background-color 150ms ease-in-out;
+}
+
+.menu a:focus,
+.menu a:hover {
+  outline: none;
+  background-color: darkblue;
+}
+
+.menu a:active {
+  background-color: darkmagenta;
+}
