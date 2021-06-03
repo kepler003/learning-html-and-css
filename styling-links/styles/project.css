@@ -16,3 +16,17 @@
 .basic .active a:active {
   color: blueviolet;
 }
+
+.icon p {
+  display: inline-block;
+}
+
+.icon a {
+  padding-right: 2.4rem;
+  color: red;
+  text-decoration: none;
+  background-image: url("https://iconarchive.com/download/i98467/dakirby309/simply-styled/YouTube.ico");
+  background-size: contain;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+}
