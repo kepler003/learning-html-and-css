@@ -1,0 +1,18 @@
+
+.basic .link a:link {
+  color: blue;
+}
+
+.basic .visited a:visited {
+  color: darkblue;
+}
+
+.basic .focus a:focus,
+.basic .focus a:hover {
+  color: lightslategray;
+  outline: none;
+}
+
+.basic .active a:active {
+  color: blueviolet;
+}
