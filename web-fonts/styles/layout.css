@@ -1,0 +1,44 @@
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding: 4.8rem;
+
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  width: 100%;
+  margin-bottom: 4.8rem;
+}
+
+.heading {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.heading::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  margin-left: 1.6rem;
+  background-color: lightgray;
+  position: relative;
+  top: 50%;
+}
+
+.section {
+  padding: 1.6rem;
+}
+
+.subheading {
+  margin-bottom: 2.4rem;
+  font-size: 2.4rem;
+}
