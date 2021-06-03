@@ -18,14 +18,26 @@
 
 }
 
-.heading--bold {
+.downloaded .heading--bold {
   margin-bottom: 2.4rem;
   font-family: 'abril fatface', serif;
   font-size: 3.2rem;
 }
 
-.text {
+.downloaded .text {
   margin-bottom: 1.2rem;
   font-family: 'abhaya libre', serif;
+  line-height: 1.3;
+}
+
+.linked .heading--bold {
+  margin-bottom: 2.4rem;
+  font-family: 'Limelight', cursive;
+  font-size: 3.2rem;
+}
+
+.linked .text {
+  margin-bottom: 1.2rem;
+  font-family: 'Lato', sans-serif;
   line-height: 1.3;
 }
