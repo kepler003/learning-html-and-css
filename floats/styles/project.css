@@ -12,3 +12,20 @@
 .example p {
   margin-bottom: 1.2rem;
 }
+
+.background .box {
+  width: 200px;
+  height: 200px;
+  margin: 1.2rem;
+  background-color: indigo;
+  border-radius: 1.2rem;
+  float: left;
+}
+
+.background p {
+  margin-bottom: 1.2rem;
+}
+
+.background p:first-of-type {
+  background-color: #CCC;
+}
