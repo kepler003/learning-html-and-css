@@ -1,0 +1,14 @@
+
+.example .box {
+  width: 200px;
+  height: 200px;
+  margin-right: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: indigo;
+  border-radius: 1.2rem;
+  float: left;
+}
+
+.example p {
+  margin-bottom: 1.2rem;
+}
