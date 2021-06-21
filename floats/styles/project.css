@@ -29,3 +29,30 @@
 .background p:first-of-type {
   background-color: #CCC;
 }
+
+.clear .box {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1.2rem;
+  background-color: indigo;
+  border-radius: 1.2rem;
+}
+
+.clear .box--first {
+  margin-right: 1.2rem;
+  float: left;
+}
+
+.clear .box--second {
+  height: 400px;
+  margin-left: 1.2rem;
+  float: right;
+}
+
+.clear p {
+  margin-bottom: 1.2rem;
+}
+
+.clear p:nth-of-type(3) {
+  clear: left;
+}
